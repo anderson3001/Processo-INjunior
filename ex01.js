@@ -1,3 +1,4 @@
+//Primeiro desafio do processo seletivo da IN junior
 function Raizes(){
     const a = parseFloat(prompt("Digite o valor do coeficiente a: "));
     const b = parseFloat(prompt("Digite o valor do coeficiente b: "));
@@ -16,7 +17,7 @@ function Raizes(){
     else{
         const x1 = (-b - Math.sqrt(delta))/ (2*a);
         const x2 = (-b + Math.sqrt(delta))/ (2*a);
-        console.log('A equação possui duas raízes reais: x1 = '+ x1 + ' e x2 = ' + x2);
+        console.log('A equação possui duas raízes reais: x1  = '+ x1 + ' e x2 = ' + x2);
         return;
    }
     
