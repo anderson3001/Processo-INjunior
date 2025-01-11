@@ -7,11 +7,7 @@ do{
     for (let i = 0; i < fila.length;i++){
         console.log(`${i + 1}° ${fila[i]}`);
     }
-    console.log("-----Escolha uma opção----");
-    console.log("[1] Novo cliente");
-    console.log("[2] Atender cliente");
-    console.log("[3] Sair");
-    entrada = prompt("Opção escolhida:");
+    entrada = prompt("-----Escolha uma opção----\n[1] Novo cliente\n[2] Atender cliente\n[3] Sair");
 
     switch (entrada){
         case "1":
@@ -21,6 +17,8 @@ do{
         case "2":
             antigoCliente = fila.shift();
             console.log(`Sendo atendido(a): ${antigoCliente}`);
+            break;
+        case "3":
             break;
         default:
             console.log("Opção inválida.");
