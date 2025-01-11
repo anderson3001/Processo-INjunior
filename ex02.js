@@ -1,6 +1,6 @@
 //Segundo desafio do processo seletivo IN junior
 function Fatorial(num){
-    let fat = num 
+    let fat = num;//variável auxiliar
     for (let i = 1; i < num; i++){
         fat *= i;
     }
@@ -8,7 +8,7 @@ function Fatorial(num){
     resp = prompt("Deseja calcular outro fatorial?");
     if (resp != "s" && resp != "S" && resp != "n" && resp != "N"){
         do {
-            alert("Resposta inválida.")
+            alert("Resposta inválida.");
             resp = prompt("Deseja calcular outro fatorial?");
         }while (resp != "s" && resp != "S" && resp != "n" && resp != "N");
     }
